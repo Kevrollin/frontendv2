@@ -1,4 +1,4 @@
-import 'react-native-url-polyfill/auto';
+import './polyfills'; // must be first import
 
 import { useEffect } from 'react';
 import { router } from 'expo-router';

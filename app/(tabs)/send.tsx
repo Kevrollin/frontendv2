@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'react-native-url-polyfill/auto';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, KeyboardAvoidingView, Platform } from 'react-native';
 import { router } from 'expo-router';
 import { ThemedBackground } from '@/components/ThemedBackground';

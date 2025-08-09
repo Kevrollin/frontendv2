@@ -8,7 +8,7 @@ module.exports = {
         xendly: {
           primary: '#10B981',
           accent: '#34D399',
-          'bg-light': '#D1FAE5',
+          'bg-light': '#90f5c1ff',
           'bg-dark': '#0F172A',
           'grid-light': '#A7F3D0',
           'grid-dark': '#10B981',

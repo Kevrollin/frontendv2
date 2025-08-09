@@ -1,3 +1,5 @@
+import 'react-native-url-polyfill/auto';
+
 export const formatCurrency = (amount: number, currency: string): string => {
   const formatted = new Intl.NumberFormat('en-US', {
     minimumFractionDigits: currency === 'XLM' ? 7 : 2,
