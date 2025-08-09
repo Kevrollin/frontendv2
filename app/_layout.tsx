@@ -1,4 +1,4 @@
-import './polyfills'; // must be first import
+import '../polyfills'; // must be first import
 
 import { useEffect } from 'react';
 import { Stack } from 'expo-router';
