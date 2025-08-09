@@ -469,23 +469,24 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 24,
+    paddingTop: 64,
   },
   greeting: {
     paddingHorizontal: 24,
-    marginBottom: 32,
+    marginBottom: 12,
   },
   name: {
     flexDirection: 'row',
+    columnGap: 12,
   },
   greetingText: {
-    fontSize: 24,
+    fontSize: 20,
     marginBottom: 4,
   },
   userName: {
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: 'bold',
-    paddingLeft: 12,
+    padding: 24,
   },
   statusBadge: {
     alignSelf: 'flex-start',
@@ -571,8 +572,8 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   flagButton: {
-    width: 56,
-    height: 54,
+    width: 48,
+    height: 48,
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
@@ -772,7 +773,7 @@ const styles = StyleSheet.create({
   },
   metricsCard: {
     marginHorizontal: 12,
-    marginBottom: 12,
+    marginBottom: 94,
   },
   metricsHeader: {
     flexDirection: 'row',

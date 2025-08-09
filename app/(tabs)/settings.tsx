@@ -459,7 +459,7 @@ export default function SettingsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 22,
+    paddingTop: 64,
   },
   header: {
     paddingHorizontal: 12,
@@ -617,6 +617,8 @@ const styles = StyleSheet.create({
   footer: {
     alignItems: 'center',
     paddingVertical: 40,
+    marginHorizontal: 12,
+    marginBottom: 64,
   },
   footerText: {
     fontSize: 12,
