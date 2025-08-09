@@ -1,5 +1,5 @@
 // polyfill.js
-
+import 'react-native-url-polyfill/auto';
 import { EventSource as RNEventSource } from "react-native-sse";
 
 // Shim Event constructor
